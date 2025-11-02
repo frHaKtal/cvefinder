@@ -187,7 +187,7 @@ func getExploits(cve string) []Exploit {
 	return exploits
 }
 func runHttpx(urlStr string) map[string]string {
-	cmd := exec.Command("./httpx", "-u", urlStr, "--tech-detect", "--json", "--silent")
+	cmd := exec.Command("httpx", "-u", urlStr, "--tech-detect", "--json", "--silent")
 	out, err := cmd.Output()
 	if err != nil {
 		return nil
