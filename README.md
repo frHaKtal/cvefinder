@@ -7,6 +7,6 @@ Go tool to detect technologies via httpx, search CVEs on NVD, exploits on Exploi
 
 ```bash
 go build -o cvefinder cvefinder.go
-./cvefinder -u https://example.com
+./cvefinder -u https://example.com/
 # or -f urls.txt -c 20
-# or echo "https://example.com" | cvefinder
+# or echo "https://example.com/" | cvefinder
