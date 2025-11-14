@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-Go tool to detect technologies via httpx, search CVEs on NVD, exploits on Exploit-DB.
+Go tool to detect technologies via httpx, search CVEs on NVD or VULNERS, exploits on Exploit-DB.
 ## Usage
 
 ```bash
